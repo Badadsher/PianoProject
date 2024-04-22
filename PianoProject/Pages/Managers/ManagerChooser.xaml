@@ -9,6 +9,20 @@
       Title="ManagerChooser">
 
     <Grid Background="#FF373737">
-        
+        <Button HorizontalAlignment="Left" Margin="51,115,0,0" VerticalAlignment="Top" Height="110" Width="111" Click="PianoOpen_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/pianoicon.png"/>
+            </Button.Background>
+
+        </Button>
+        <Label Content="Список пианино" HorizontalAlignment="Left" Margin="180,151,0,0" VerticalAlignment="Top" Foreground="White" Width="236" Height="38" FontSize="20" FontFamily="Bahnschrift Condensed"/>
+        <Button HorizontalAlignment="Left" Margin="51,247,0,0" VerticalAlignment="Top" Height="110" Width="111" Click="PianoOpen_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/ordericon.png"/>
+            </Button.Background>
+
+        </Button>
+        <Label Content="Список заказов" HorizontalAlignment="Left" Margin="180,283,0,0" VerticalAlignment="Top" Foreground="White" Width="236" Height="38" FontSize="20" FontFamily="Bahnschrift Condensed"/>
+
     </Grid>
 </Page>

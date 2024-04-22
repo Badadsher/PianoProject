@@ -24,5 +24,15 @@ namespace PianoProject.Pages.Managers
         {
             InitializeComponent();
         }
+
+        private void PianoOpen_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ManagerPianoPage()); 
+        }
+
+        private void OrderOpen_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ManagerOrdersPage());
+        }
     }
 }

@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PianoProject.Pages
+namespace PianoProject.Pages.Managers
 {
     /// <summary>
-    /// Логика взаимодействия для Catalog.xaml
+    /// Логика взаимодействия для ManagerOrdersPage.xaml
     /// </summary>
-    public partial class Catalog : Page
+    public partial class ManagerOrdersPage : Page
     {
-        public Catalog()
+        public ManagerOrdersPage()
         {
             InitializeComponent();
-        }
-
-        private void CartClick(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

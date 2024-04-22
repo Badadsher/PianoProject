@@ -24,5 +24,15 @@ namespace PianoProject.Pages
         {
             InitializeComponent();
         }
+
+        private void LogInNavigate(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Login());
+        }
+
+        private void RegInClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

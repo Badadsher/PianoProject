@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PianoProject.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Catalog.xaml
+    /// Логика взаимодействия для Cart.xaml
     /// </summary>
-    public partial class Catalog : Page
+    public partial class Cart : Window
     {
-        public Catalog()
+        public Cart()
         {
             InitializeComponent();
-        }
-
-        private void CartClick(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
