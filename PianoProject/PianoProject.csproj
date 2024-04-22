@@ -67,8 +67,57 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Admins\AdminChooser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Admins\AdminUserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Catalog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Managers\ManagerChooser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Managers\ManagerPianoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RegIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Admins\AdminChooser.xaml.cs">
+      <DependentUpon>AdminChooser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Admins\AdminUserPage.xaml.cs">
+      <DependentUpon>AdminUserPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catalog.xaml.cs">
+      <DependentUpon>Catalog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Managers\ManagerChooser.xaml.cs">
+      <DependentUpon>ManagerChooser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Managers\ManagerPianoPage.xaml.cs">
+      <DependentUpon>ManagerPianoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RegIn.xaml.cs">
+      <DependentUpon>RegIn.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +142,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.png" />
+    <Resource Include="Images\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ordericon.png" />
+    <Resource Include="Images\pianoicon.png" />
+    <Resource Include="Images\usericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
