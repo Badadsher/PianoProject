@@ -20,9 +20,39 @@ namespace PianoProject.Pages
     /// </summary>
     public partial class Capcha : Page
     {
+        Random random = new Random();
         public Capcha()
         {
             InitializeComponent();
+            GenerateCapcha();
+        }
+
+        private void GenerateCapcha()
+        {
+
+
+            capchaText.Text = random.Next(1000, 9999).ToString();
+        }
+
+        private void verifyCapcha_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (inputCapcha.Text == capchaText.Text)
+                {
+                    NavigationService.Navigate(new Login());
+                    MessageBox.Show("Успешно!");
+                }
+                else
+                {
+                    MessageBox.Show("Ошибка!");
+                    capchaText.Text = random.Next(1000, 9999).ToString();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
     }
 }
