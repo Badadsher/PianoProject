@@ -25,7 +25,7 @@ namespace PianoProject.Pages.Admins
             InitializeComponent();
         }
 
-        private void UsersOpen_Click(object sender, RoutedEventArgs e)
+        private void ChooserBtn_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new AdminUserPage());
         }

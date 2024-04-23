@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,39 @@ namespace PianoProject.Pages.Admins
         public AdminUserPage()
         {
             InitializeComponent();
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            UsersGrid.Items.Clear();
+            UsersGrid.ItemsSource = AppData.db.Users.ToList();
+        }
+
+        private void Search_Tbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                string searchQuery = Search_Tbox.Text.Trim();
+
+                if (string.IsNullOrEmpty(searchQuery))
+                {
+                    UsersGrid.ItemsSource = AppData.db.Users.ToList();
+                }
+                else
+                {
+
+                    UsersGrid.ItemsSource = AppData.db.Users.Where(user => user.Login.Contains(searchQuery)).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AdderUserWindow());
         }
     }
 }

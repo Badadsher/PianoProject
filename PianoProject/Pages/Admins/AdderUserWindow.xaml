@@ -108,13 +108,14 @@
         </Style>
     </Window.Resources>
     <Grid Background="#FF373737">
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <Label Content="Email" HorizontalAlignment="Center" Margin="0,69,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Label Content="Phone" HorizontalAlignment="Center" Margin="0,139,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Label Content="Login" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Добавить пользователя" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Background="#FF6CFF89" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White">
+        <TextBox x:Name="TxbEmail" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="258,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox Name="TxbNumber" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="258,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox x:Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="258,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="382,23,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="381,93,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="382,164,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <ComboBox  Name="CmbRole" DisplayMemberPath="Title" Margin="283,324,283,85" />
+        <Button x:Name="AddBtn" Style="{DynamicResource ButtonStyle1}" Content="Добавить пользователя" HorizontalAlignment="Left" Margin="324,374,0,0" VerticalAlignment="Top" Background="#FF6CFF89" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White" Click="AddBtn_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -124,10 +125,8 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="262,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="378,279,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <Label Content="IDRole" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <TextBox Name="TxbPassword" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <Label Content="Password" HorizontalAlignment="Center" Margin="0,233,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
 
     </Grid>
 </Window>
