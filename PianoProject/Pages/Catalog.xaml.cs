@@ -1,6 +1,9 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace PianoProject.Pages
 {
@@ -29,5 +33,8 @@ namespace PianoProject.Pages
         {
 
         }
+
+
+
     }
 }
