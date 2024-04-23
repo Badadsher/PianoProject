@@ -81,7 +81,7 @@ namespace PianoProject.Pages.Managers {
             case 2:
             
             #line 19 "..\..\..\..\Pages\Managers\ManagerChooser.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.OrderOpen_Click);
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.PianoOpen_Click);
             
             #line default
             #line hidden

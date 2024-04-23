@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,14 +26,40 @@ namespace PianoProject.Pages
             InitializeComponent();
         }
 
-        private void LogInNavigate(object sender, RoutedEventArgs e)
+        private void RegInBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Login());
+            try { 
+            if ( !string.IsNullOrEmpty(TxbLogin.Text) && !string.IsNullOrEmpty(TxbEmail.Text)
+               && !string.IsNullOrEmpty(TxbNumber.Text) && !string.IsNullOrEmpty(TxbPassword.Password) &&
+               !string.IsNullOrEmpty(TxbRePassword.Password) && TxbRePassword.Password == TxbPassword.Password)
+            {
+                Users people = new Users();
+
+                people.ID = AppData.db.Users.Any() ? AppData.db.Users.Max(u => u.ID) + 1 : 1;
+                people.Login = TxbLogin.Text;
+                people.Email = TxbEmail.Text;
+                people.PhoneNumber = (int)Convert.ToInt64(TxbNumber.Text);
+                people.Password = TxbPassword.Password;
+                people.IdRole = 3;
+
+                AppData.db.Users.Add(people);
+                AppData.db.SaveChanges();
+                MessageBox.Show("Пользователь успешно был добавлен в базу");
+            }
+            else
+            {
+                MessageBox.Show("Ошибка, некоторые поля пустые", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Error) ;
+            }
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
 
-        private void RegInClick(object sender, RoutedEventArgs e)
+        private void LogInBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Login());
         }
     }
 }

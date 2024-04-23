@@ -107,6 +107,51 @@
                 </MultiTrigger>
             </Style.Triggers>
         </Style>
+        <SolidColorBrush x:Key="TextBox.Static.Border1" Color="#FFABAdB3"/>
+        <SolidColorBrush x:Key="TextBox.MouseOver.Border1" Color="#FF7EB4EA"/>
+        <SolidColorBrush x:Key="TextBox.Focus.Border1" Color="#FF569DE5"/>
+        <Style x:Key="PasswordBoxStyle1" TargetType="{x:Type PasswordBox}">
+            <Setter Property="PasswordChar" Value="●"/>
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border1}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border x:Name="border" CornerRadius="20" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.MouseOver.Border1}"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.Focus.Border1}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsInactiveSelectionHighlightEnabled" Value="true"/>
+                        <Condition Property="IsSelectionActive" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
     </Page.Resources>
 
     <Grid>
@@ -126,11 +171,11 @@
             </Rectangle.Fill>
 
         </Rectangle>
-        <TextBox Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,171,0,0"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,228,0,0"/>
-        <Button Style="{DynamicResource ButtonStyle1}"  Content="Log In" HorizontalAlignment="Center" Margin="0,281,0,0" VerticalAlignment="Top" Width="86" Background="#FF7BE379" Height="21" BorderBrush="Black"/>
+        <TextBox Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,171,0,0"/>
+        <PasswordBox x:Name="TxbPassword" Style="{DynamicResource PasswordBoxStyle1}"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="296" Height="36" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,228,0,0"/>
+        <Button x:Name="LogInBtn" Style="{DynamicResource ButtonStyle1}"  Content="Log In" HorizontalAlignment="Center" Margin="0,281,0,0" VerticalAlignment="Top" Width="86" Background="#FF7BE379" Height="21" BorderBrush="Black" Click="LogInBtn_Click"/>
         <Label Content="no account?" HorizontalAlignment="Left" Margin="348,312,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <Label Content=" Reg In." HorizontalAlignment="Left" Margin="413,312,0,0" VerticalAlignment="Top" Foreground="#FF0084FF"/>
+        <Button x:Name="RegInBtn" Content=" Reg In." HorizontalAlignment="Left" Margin="414,315,0,0" VerticalAlignment="Top" Foreground="#FF0084FF" Opacity="1" Background="#00DDDDDD" BorderBrush="#00707070" Click="RegInBtn_Click"/>
         <Label Content="PianoMarket" HorizontalAlignment="Left" VerticalAlignment="Top" Height="69" Width="274" Foreground="White" FontSize="36" FontFamily="Magneto" Margin="274,0,0,0"/>
 
 

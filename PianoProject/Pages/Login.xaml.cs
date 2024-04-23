@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PianoProject.Model;
+using PianoProject.Pages.Admins;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PianoProject.Pages.Managers;
 
 namespace PianoProject.Pages
 {
@@ -25,14 +28,54 @@ namespace PianoProject.Pages
             InitializeComponent();
         }
 
-        private void LoginClick(object sender, RoutedEventArgs e)
-        {
 
+        private int failedAttempts = 0;
+
+        private void LogInBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var CurrentUser = AppData.db.Users.FirstOrDefault(u => u.Login == TxbLogin.Text && u.Password == TxbPassword.Password);
+
+                if (CurrentUser != null && CurrentUser.IdRole == 1)
+                {
+                    NavigationService.Navigate(new AdminChooser());
+                }
+                else if (CurrentUser != null && CurrentUser.IdRole == 2)
+                {
+                    NavigationService.Navigate(new ManagerChooser());
+                }
+                else if (CurrentUser != null && CurrentUser.IdRole == 3)
+                {
+                    NavigationService.Navigate(new Catalog());
+                }
+                else if (CurrentUser != null && CurrentUser.IdRole == 4)
+                {
+                    MessageBox.Show("Данный пользователь удален.");
+                }
+                else
+                {
+                    failedAttempts++;
+
+                    if (failedAttempts >= 3)
+                    {
+                        NavigationService.Navigate(new Capcha());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Данного пользователя нет в базе. Попробуйте снова.");
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
 
-        private void RegInNavigate(object sender, RoutedEventArgs e)
+        private void RegInBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new RegIn());                                                                                 
+            NavigationService.Navigate(new RegIn());
         }
     }
 }
