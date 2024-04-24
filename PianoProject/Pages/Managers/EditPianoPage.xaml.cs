@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PianoProject.Pages.Admins
+namespace PianoProject.Pages.Managers
 {
     /// <summary>
-    /// Логика взаимодействия для EditUserWindow.xaml
+    /// Логика взаимодействия для EditPianoPage.xaml
     /// </summary>
-    public partial class EditUserWindow : Window
+    public partial class EditPianoPage : Page
     {
-        public EditUserWindow()
+        public EditPianoPage()
         {
             InitializeComponent();
         }

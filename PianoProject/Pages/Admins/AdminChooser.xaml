@@ -9,7 +9,7 @@
       Title="AdminChooser">
 
     <Grid Background="#FF373737">
-        <Button x:Name="ChooserBtn" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Center" Height="110" Width="111" Click="ChooserBtn_Click">
+        <Button x:Name="ChooserBtn" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Center" Height="110" Width="111" Click="ChooserBtn_Click" BorderBrush="#00707070">
             <Button.Background>
                 <ImageBrush ImageSource="/Images/usericon.png"/>
             </Button.Background>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Pages.Admins;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,27 @@ namespace PianoProject.Pages.Managers
         public ManagerOrdersPage()
         {
             InitializeComponent();
+        }
+
+        private void Refresh(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Add(object sender, RoutedEventArgs e)
+        {
+            Window adderPianoWindow = new AdderWindowPiano();
+            adderPianoWindow.Show();
+        }
+
+        private void Delete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Edit(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new EditPianoPage());    
         }
     }
 }

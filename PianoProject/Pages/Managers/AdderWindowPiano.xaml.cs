@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,38 @@ namespace PianoProject.Pages.Managers
         public AdderWindowPiano()
         {
             InitializeComponent();
+        }
+
+        private void AddBtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(countbox.Text) && !string.IsNullOrEmpty(modelbox.Text)
+               && !string.IsNullOrEmpty(pricebox.Text))
+                {
+                    Piano piano = new Piano();
+
+                    piano.IDPianino = AppData.db.Piano.Any() ? AppData.db.Piano.Max(u => u.IDPianino) + 1 : 1;
+                    piano.Count = Convert.ToInt32(countbox.Text);
+                    piano.Model = modelbox.Text;
+                    piano.Price = Convert.ToInt32(pricebox.Text);
+                   
+
+
+                    AppData.db.Piano.Add(piano);
+                    AppData.db.SaveChanges();
+                    MessageBox.Show("Пианино успешно было добавлен в базу");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ошибка, некоторые поля пустые", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
     }
 }

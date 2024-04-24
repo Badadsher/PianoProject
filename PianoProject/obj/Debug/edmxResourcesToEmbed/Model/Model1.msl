@@ -27,7 +27,7 @@
           <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="Model" ColumnName="Model" />
           <ScalarProperty Name="Count" ColumnName="Count" />
-          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

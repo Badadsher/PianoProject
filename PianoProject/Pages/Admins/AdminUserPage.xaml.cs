@@ -21,6 +21,8 @@ namespace PianoProject.Pages.Admins
     /// </summary>
     public partial class AdminUserPage : Page
     {
+        public event EventHandler<RecordSelectedEventArgs> RecordSelected;
+
         public AdminUserPage()
         {
             InitializeComponent();
@@ -56,7 +58,25 @@ namespace PianoProject.Pages.Admins
 
         private void AddBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new AdderUserWindow());
+            Window adderUserWindow = new AdderUserWindow();
+            adderUserWindow.Show();
+        }
+
+        private void Refresh(object sender, RoutedEventArgs e)
+        {
+            UsersGrid.ItemsSource = AppData.db.Users.ToList();
+            MessageBox.Show("Обновлено");
+        }
+
+        private void Delete(object sender, RoutedEventArgs e)
+        {
+            var curUser = UsersGrid.SelectedItem as Users;
+            curUser.IdRole = 4;
+        }
+
+        private void Edit(object sender, RoutedEventArgs e)
+        {
+           NavigationService.Navigate(new EditUserAdminPage());
         }
     }
 }

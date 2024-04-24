@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -27,6 +28,9 @@ namespace PianoProject.Pages
         public Catalog()
         {
             InitializeComponent();
+            var currentPianos = AppData.db.Piano.ToList();
+            dg.ItemsSource = AppData.db.Piano.ToList();
+          
         }
 
         private void CartClick(object sender, RoutedEventArgs e)
@@ -34,7 +38,9 @@ namespace PianoProject.Pages
 
         }
 
+        private void BuyBTN(object sender, RoutedEventArgs e)
+        {
 
-
+        }
     }
 }

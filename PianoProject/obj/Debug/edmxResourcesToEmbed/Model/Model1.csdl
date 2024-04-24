@@ -29,7 +29,7 @@
     <Property Name="Price" Type="Int32" Nullable="false" />
     <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Count" Type="Int32" Nullable="false" />
-    <Property Name="Img" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="cart" Relationship="Self.FK_cart_Piano" FromRole="Piano" ToRole="cart" />
     <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Piano" FromRole="Piano" ToRole="Orders" />
   </EntityType>

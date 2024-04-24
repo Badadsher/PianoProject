@@ -8,7 +8,7 @@
       Loaded="Page_Loaded"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AdminUserPage">
-    
+
     <Page.Resources>
         <Style x:Key="{ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}" TargetType="{x:Type Button}">
             <Setter Property="Template">
@@ -217,7 +217,7 @@
     </Page.Resources>
 
     <Grid Background="#FF373737">
-        <DataGrid x:Name="UsersGrid" AutoGenerateColumns="False" Margin="84,75,84,105">
+        <DataGrid Style="{DynamicResource DataGridStyle1}" x:Name="UsersGrid" AutoGenerateColumns="False" Margin="84,75,84,105">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Width="*" Binding="{Binding ID}"/>
                 <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Login}"/>
@@ -234,9 +234,9 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Редактировать" HorizontalAlignment="Left" Margin="128,402,0,0" VerticalAlignment="Top" Background="#FFD35ADD" Foreground="White" BorderBrush="#00707070" Width="96" Height="26"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Удалить" HorizontalAlignment="Left" Margin="257,402,0,0" VerticalAlignment="Top" Background="#FFDE3838" Foreground="White" BorderBrush="#00707070" Width="96" Height="26"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Обновить" HorizontalAlignment="Left" Margin="391,402,0,0" VerticalAlignment="Top" Background="#FFC5D464" Foreground="White" BorderBrush="#00707070" Width="96" Height="26"/>
-        <Button x:Name="AddBtn" Style="{DynamicResource ButtonStyle1}" Content="Добавить" HorizontalAlignment="Left" Margin="528,402,0,0" VerticalAlignment="Top" Background="#FF5CA7EC" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="AddBtn_Click"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Content="Редактировать" HorizontalAlignment="Left" Margin="129,374,0,0" VerticalAlignment="Top" Background="#FFD35ADD" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Edit"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Content="Удалить" HorizontalAlignment="Left" Margin="258,374,0,0" VerticalAlignment="Top" Background="#FFDE3838" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Delete"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Content="Обновить" HorizontalAlignment="Left" Margin="392,374,0,0" VerticalAlignment="Top" Background="#FFC5D464" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Refresh"/>
+        <Button x:Name="AddBtn" Style="{DynamicResource ButtonStyle1}" Content="Добавить" HorizontalAlignment="Left" Margin="529,374,0,0" VerticalAlignment="Top" Background="#FF5CA7EC" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="AddBtn_Click"/>
     </Grid>
 </Page>

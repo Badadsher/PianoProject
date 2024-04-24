@@ -51,6 +51,7 @@ namespace PianoProject.Pages.Admins
                     AppData.db.Users.Add(people);
                     AppData.db.SaveChanges();
                     MessageBox.Show("Пользователь успешно был добавлен в базу");
+                    this.Close();
                 }
                 else
                 {

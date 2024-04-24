@@ -108,13 +108,13 @@
         </Style>
     </Window.Resources>
     <Grid Background="#FF373737">
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox x:Name="pricebox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox x:Name="modelbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox x:Name="countbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
         <Label Content="Price" HorizontalAlignment="Center" Margin="0,69,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
         <Label Content="Model" HorizontalAlignment="Center" Margin="0,139,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
         <Label Content="Count" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Добавить пианино" HorizontalAlignment="Center" Margin="0,303,0,0" VerticalAlignment="Top" Background="#FF6CFF89" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White">
+        <Button Style="{DynamicResource ButtonStyle1}" Content="Добавить пианино" HorizontalAlignment="Center" Margin="0,303,0,0" VerticalAlignment="Top" Background="#FF6CFF89" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White" Click="AddBtn_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

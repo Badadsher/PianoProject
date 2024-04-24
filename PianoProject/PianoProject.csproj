@@ -88,7 +88,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Admins\EditUserWindow.xaml">
+    <Page Include="Pages\Admins\EditUserAdminPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,10 +109,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Managers\AdderWindowPiano.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pages\Managers\EditWindowPiano.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,8 +170,8 @@
     <Compile Include="Pages\Admins\AdminUserPage.xaml.cs">
       <DependentUpon>AdminUserPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Admins\EditUserWindow.xaml.cs">
-      <DependentUpon>EditUserWindow.xaml</DependentUpon>
+    <Compile Include="Pages\Admins\EditUserAdminPage.xaml.cs">
+      <DependentUpon>EditUserAdminPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Capcha.xaml.cs">
       <DependentUpon>Capcha.xaml</DependentUpon>
@@ -191,9 +187,6 @@
     </Compile>
     <Compile Include="Pages\Managers\AdderWindowPiano.xaml.cs">
       <DependentUpon>AdderWindowPiano.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Managers\EditWindowPiano.xaml.cs">
-      <DependentUpon>EditWindowPiano.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Managers\ManagerChooser.xaml.cs">
       <DependentUpon>ManagerChooser.xaml</DependentUpon>
@@ -256,19 +249,19 @@
     <Resource Include="Images\search.png" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Model\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

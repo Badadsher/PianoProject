@@ -1,18 +1,6 @@
 ﻿
 
-FE:\Piano\PianoProject\PianoProject\MainWindow.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdderUserWindow.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdminChooser.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdminUserPage.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Admins\EditUserWindow.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Capcha.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Cart.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Catalog.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Login.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Managers\AdderWindowPiano.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Managers\EditWindowPiano.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\EditPianoPage.xaml;;
 FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerChooser.xaml;;
 FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerOrdersPage.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerPianoPage.xaml;;
-FE:\Piano\PianoProject\PianoProject\Pages\RegIn.xaml;;
 
