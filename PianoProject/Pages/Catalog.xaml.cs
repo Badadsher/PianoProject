@@ -35,12 +35,22 @@ namespace PianoProject.Pages
 
         private void CartClick(object sender, RoutedEventArgs e)
         {
-
+            Window cartwind = new Cart();
+            cartwind.Show();
         }
 
         private void BuyBTN(object sender, RoutedEventArgs e)
         {
+            var curPiano = dg.SelectedItem as Piano;
+            curPiano.Count --;
+            
+            cart carton = new cart();
+            carton.IDCart = AppData.db.cart.Any() ? AppData.db.cart.Max(u => u.IDCart) + 1 : 1;
+            carton.PianoID = curPiano.IDPianino;
+            carton.IDUser = Saver.SaveLog;
 
+            AppData.db.cart.Add(carton);
+            AppData.db.SaveChanges();
         }
     }
 }
