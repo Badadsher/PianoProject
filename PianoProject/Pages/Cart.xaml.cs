@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,42 @@ namespace PianoProject.Pages
         public Cart()
         {
             InitializeComponent();
+
+            //using (var context = new PianooEntities())
+            //{
+            //    var query = from idTableControl in context.ControlTable
+            //                join idNameTableBook in context.Books
+            //                on idTableControl.IDBook equals idNameTableBook.ID
+            //                join idAbonent in context.Abonent
+            //                on idTableControl.IDAbonent
+            //                equals idAbonent.ID
+            //                select new
+            //                {
+            //                    Id = idTableControl.IDBook,
+            //                    BookName = idNameTableBook.Title,
+            //                    IDAbonent = idTableControl.IDAbonent,
+
+            //                };
+
+
+            //    usersGrid.ItemsSource = query.Where(item => item.IDAbonent == Saver.SaveLog).ToList();
+            //}
+
+            orderdg.ItemsSource = AppData.db.cart.ToList();
+
+            using (var context = new PianooEntities())
+            {
+                var data = context.Orders.Where(e => e.IdUser == Saver.SaveLog).ToList();
+
+        
+                orderdg.ItemsSource = data;
+            }
+        }
+
+        private void BuyBT(object sender, RoutedEventArgs e)
+        {
+            var curPiano = orderdg.SelectedItem as cart;
+            AppData.db.cart.Remove(curPiano);
         }
     }
 }

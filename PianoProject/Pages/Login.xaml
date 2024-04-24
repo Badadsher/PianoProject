@@ -177,9 +177,11 @@
         <Label Content="no account?" HorizontalAlignment="Left" Margin="348,312,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Button x:Name="RegInBtn" Content=" Reg In." HorizontalAlignment="Left" Margin="414,315,0,0" VerticalAlignment="Top" Foreground="#FF0084FF" Opacity="1" Background="#00DDDDDD" BorderBrush="#00707070" Click="RegInBtn_Click"/>
         <Label Content="PianoMarket" HorizontalAlignment="Left" VerticalAlignment="Top" Height="69" Width="274" Foreground="White" FontSize="36" FontFamily="Magneto" Margin="274,0,0,0"/>
+        <Label Content="Login" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="48" FontSize="16"/>
+        <Label Content="Password" HorizontalAlignment="Center" Margin="0,204,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="28" Width="72" FontSize="16"/>
 
 
-     
+
 
 
     </Grid>

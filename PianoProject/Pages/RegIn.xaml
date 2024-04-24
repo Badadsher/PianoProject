@@ -171,15 +171,20 @@
             </Rectangle.Fill>
 
         </Rectangle>
-        <TextBox Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,55,0,0"/>
-        <TextBox Name="TxbEmail" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,100,0,0"/>
-        <TextBox Name="TxbNumber" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,159,0,0"/>
-        <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" Name="TxbPassword"  HorizontalAlignment="Center"   VerticalAlignment="Top" Width="296" Height="36"  Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,216,0,0"/>
-        <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" Name="TxbRePassword"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width="296" Height="36" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,274,0,0" RenderTransformOrigin="0.517,-0.208"/>
+        <TextBox Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,65,0,0"/>
+        <TextBox Name="TxbEmail" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,114,0,0"/>
+        <TextBox Name="TxbNumber" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,169,0,0"/>
+        <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" Name="TxbPassword"  HorizontalAlignment="Center"   VerticalAlignment="Top" Width="296" Height="36"  Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,226,0,0"/>
+        <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" Name="TxbRePassword"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width="296" Height="36" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,284,0,0" RenderTransformOrigin="0.517,-0.208"/>
         <Label Content="PianoMarket" HorizontalAlignment="Left" VerticalAlignment="Top" Height="69" Width="274" Foreground="White" FontSize="36" FontFamily="Magneto" Margin="274,0,0,0"/>
-        <Button x:Name="RegInBtn" Style="{DynamicResource ButtonStyle1}"  Content="Reg In" HorizontalAlignment="Center" Margin="0,324,0,0" VerticalAlignment="Top" Width="86" Background="#FF7BE379" Height="21" BorderBrush="Black" Click="RegInBtn_Click"/>
-        <Label Content="Have account?" HorizontalAlignment="Left" Margin="336,347,0,0" VerticalAlignment="Top" Foreground="White" Width="89"/>
-        <Button x:Name="LogInBtn" Content=" Log In." HorizontalAlignment="Left" Margin="416,350,0,0" VerticalAlignment="Top" Foreground="#FF0084FF" Background="#00DDDDDD" Click="LogInBtn_Click" BorderBrush="#00707070"/>
+        <Button x:Name="RegInBtn" Style="{DynamicResource ButtonStyle1}"  Content="Reg In" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Width="86" Background="#FF7BE379" Height="21" BorderBrush="Black" Click="RegInBtn_Click"/>
+        <Label Content="Have account?" HorizontalAlignment="Left" Margin="336,357,0,0" VerticalAlignment="Top" Foreground="White" Width="89"/>
+        <Button x:Name="LogInBtn" Content=" Log In." HorizontalAlignment="Left" Margin="416,360,0,0" VerticalAlignment="Top" Foreground="#FF0084FF" Background="#00DDDDDD" Click="LogInBtn_Click" BorderBrush="#00707070"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="204,68,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="48" FontSize="16"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="199,117,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="48" FontSize="16"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="199,172,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="48" FontSize="16"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="176,229,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="71" FontSize="16"/>
+        <Label Content="RePassword" HorizontalAlignment="Left" Margin="161,290,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiBold SemiCondensed" Height="30" Width="86" FontSize="16"/>
 
 
 
