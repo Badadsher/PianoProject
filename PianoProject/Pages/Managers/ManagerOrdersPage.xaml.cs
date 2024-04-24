@@ -1,4 +1,5 @@
-﻿using PianoProject.Pages.Admins;
+﻿using PianoProject.Model;
+using PianoProject.Pages.Admins;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,27 +25,30 @@ namespace PianoProject.Pages.Managers
         public ManagerOrdersPage()
         {
             InitializeComponent();
+            orderdg.ItemsSource = AppData.db.Orders.ToList();   
         }
 
         private void Refresh(object sender, RoutedEventArgs e)
         {
-
+            orderdg.ItemsSource = AppData.db.Orders.ToList();
+            MessageBox.Show("Обновлено");
         }
 
         private void Add(object sender, RoutedEventArgs e)
         {
-            Window adderPianoWindow = new AdderWindowPiano();
-            adderPianoWindow.Show();
+            Window adderOrderWindow = new AdderWindowOrder();
+            adderOrderWindow.Show();
         }
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-
+            var curOrder = orderdg.SelectedItem as Orders;
+            AppData.db.Orders.Remove(curOrder);
         }
 
         private void Edit(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new EditPianoPage());    
+            NavigationService.Navigate(new EditOrderPage());
         }
     }
 }

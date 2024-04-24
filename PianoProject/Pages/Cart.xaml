@@ -6,9 +6,11 @@
         xmlns:local="clr-namespace:PianoProject.Pages"
         mc:Ignorable="d"
         Title="Cart" Height="450" Width="800">
-   
-        <Grid Background="#FF373737">
-            <Label Content="Cart List" HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top" Width="195" Height="55" FontSize="29" Foreground="White" OpacityMask="Black" FontFamily="Perpetua Titling MT"/>
-        </Grid>
-    
+
+	<Grid Background="#FF373737">
+		<Label Content="Cart List" HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top" Width="195" Height="55" FontSize="29" Foreground="White" OpacityMask="Black" FontFamily="Perpetua Titling MT"/>
+		<DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="52,86,54,135"/>
+		<Button Content="Купить" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Width="182" Height="44"/>
+	</Grid>
+
 </Window>

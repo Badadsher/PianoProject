@@ -1,4 +1,4 @@
-﻿<Page x:Class="PianoProject.Pages.Managers.EditPianoPage"
+﻿<Page x:Class="PianoProject.Pages.Managers.EditOrderPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:PianoProject.Pages.Managers"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="EditPianoPage" Loaded="Page_Loaded">
+      Title="EditOrderPage">
 
     <Page.Resources>
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
@@ -190,13 +190,7 @@
         </Style>
     </Page.Resources>
     <Grid Background="#FF373737">
-        <TextBox x:Name="pricebox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="511,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox x:Name="modelbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="511,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <TextBox x:Name="countbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="511,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
-        <Label Content="Price" HorizontalAlignment="Left" Margin="636,91,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Label Content="Model" HorizontalAlignment="Left" Margin="634,161,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Label Content="Count" HorizontalAlignment="Left" Margin="635,232,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="Редактировать пианино" HorizontalAlignment="Left" Margin="577,325,0,0" VerticalAlignment="Top" Background="#FFFF7616" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White" Click="Edit">
+        <Button Style="{DynamicResource ButtonStyle1}" Content="Редактировать заказ" HorizontalAlignment="Left" Margin="577,325,0,0" VerticalAlignment="Top" Background="#FFFF7616" RenderTransformOrigin="0.5,0.5" Height="34" Width="148" Foreground="White" Click="Edit">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -206,14 +200,19 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <DataGrid Style="{DynamicResource DataGridStyle1}"  x:Name="pianodg" AutoGenerateColumns="False" Margin="13,77,314,103">
+        <DataGrid Style="{DynamicResource DataGridStyle1}"  x:Name="orderdg" AutoGenerateColumns="False" Margin="13,77,314,103">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price}"/>
                 <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Model}"/>
                 <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Count}"/>
-              
+
             </DataGrid.Columns> 4
         </DataGrid>
+        <TextBox x:Name="pianoidbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="503,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34"/>
+        <TextBox x:Name="useridbox" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="280" Height="34" Margin="503,195,0,0"/>
+        <Label Content="PianoID" HorizontalAlignment="Left" Margin="623,107,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <Label Content="UserID" HorizontalAlignment="Left" Margin="626,177,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="606,243,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

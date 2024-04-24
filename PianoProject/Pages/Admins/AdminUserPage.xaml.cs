@@ -21,7 +21,7 @@ namespace PianoProject.Pages.Admins
     /// </summary>
     public partial class AdminUserPage : Page
     {
-        public event EventHandler<RecordSelectedEventArgs> RecordSelected;
+       
 
         public AdminUserPage()
         {

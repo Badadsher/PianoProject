@@ -161,6 +161,6 @@
 
             </DataGrid.Columns>
         </DataGrid>
-        <Button Style="{DynamicResource ButtonStyle1}" Content="В КОРЗИНУ" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Height="43" Width="236" Background="#FFCDFF4F" Click="BuyBTN"/>
+        <Button Style="{DynamicResource ButtonStyle1}" Content="В КОРЗИНУ" HorizontalAlignment="Center" Margin="0,319,0,0" VerticalAlignment="Top" Height="43" Width="236" Background="#FFCDFF4F" Click="BuyBTN"/>
     </Grid>
 </Page>

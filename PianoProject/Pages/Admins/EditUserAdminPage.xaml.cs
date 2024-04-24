@@ -25,7 +25,7 @@ namespace PianoProject.Pages.Admins
         public EditUserAdminPage()
         {
             InitializeComponent();
-            UsersGrid.ItemsSource = AppData.db.Users.ToList();  
+            UsersGrid.ItemsSource = AppData.db.Users.ToList();
         }
 
         private void Edit(object sender, RoutedEventArgs e)
@@ -33,7 +33,7 @@ namespace PianoProject.Pages.Admins
             var curUser = UsersGrid.SelectedItem as Users;
             try
             {
-                if (!string.IsNullOrEmpty(loginbox.Text) && !string.IsNullOrEmpty(idrolebox.Text) && !string.IsNullOrEmpty(passbox.Text) && !string.IsNullOrEmpty(emailbox.Text) && !string.IsNullOrEmpty(phonebox.Text) )
+                if (!string.IsNullOrEmpty(loginbox.Text) && !string.IsNullOrEmpty(idrolebox.Text) && !string.IsNullOrEmpty(passbox.Text) && !string.IsNullOrEmpty(emailbox.Text) && !string.IsNullOrEmpty(phonebox.Text))
                 {
                     string input = idrolebox.Text;
                     bool isInt = int.TryParse(input, out result);
@@ -45,8 +45,8 @@ namespace PianoProject.Pages.Admins
                         curUser.Email = emailbox.Text;
                         curUser.PhoneNumber = Convert.ToInt32(phonebox.Text);
                         curUser.IdRole = Convert.ToInt32(idrolebox.Text);
-                      
-             
+
+
                         AppData.db.SaveChanges();
                         MessageBox.Show("Изменения внесены!");
                     }
@@ -61,6 +61,11 @@ namespace PianoProject.Pages.Admins
                     MessageBox.Show("Пусто!");
                 }
             }
+            catch
+            {
+                MessageBox.Show("Ошибка");
+            }
         }
     }
 }
+

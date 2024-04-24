@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PianoProject.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,30 @@ namespace PianoProject.Pages.Managers
         public ManagerPianoPage()
         {
             InitializeComponent();
+            pianodg.ItemsSource = AppData.db.Piano.ToList();
+        }
+
+        private void Edit(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new EditPianoPage());
+        }
+
+        private void Delete(object sender, RoutedEventArgs e)
+        {
+            var curPiano = pianodg.SelectedItem as Piano;
+            AppData.db.Piano.Remove(curPiano);
+        }
+
+        private void Refresh(object sender, RoutedEventArgs e)
+        {
+            pianodg.ItemsSource = AppData.db.Piano.ToList();
+            MessageBox.Show("Обновлено");
+        }
+
+        private void Add(object sender, RoutedEventArgs e)
+        {
+            Window adderPianoWindow = new AdderWindowPiano();
+            adderPianoWindow.Show();
         }
     }
 }

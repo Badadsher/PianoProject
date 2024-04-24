@@ -215,7 +215,7 @@
     </Page.Resources>
 
     <Grid Background="#FF373737">
-        <DataGrid Style="{DynamicResource DataGridStyle1}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="84,75,84,72" Background="#FFD9D9D9"/>
+        <DataGrid x:Name="orderdg" Style="{DynamicResource DataGridStyle1}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="84,75,84,72" Background="#FFD9D9D9"/>
         <TextBox Style="{DynamicResource TextBoxStyle2}" HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="351" Height="32" TextAlignment="Center"/>
         <Rectangle HorizontalAlignment="Left" Height="23" Margin="541,22,0,0" VerticalAlignment="Top" Width="22">
             <Rectangle.Fill>
