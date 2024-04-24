@@ -78,5 +78,10 @@ namespace PianoProject.Pages.Admins
         {
            NavigationService.Navigate(new EditUserAdminPage());
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AdminChooser());
+        }
     }
 }

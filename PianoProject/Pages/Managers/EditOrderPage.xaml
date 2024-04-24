@@ -213,6 +213,10 @@
         <Label Content="PianoID" HorizontalAlignment="Left" Margin="623,107,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
         <Label Content="UserID" HorizontalAlignment="Left" Margin="626,177,0,0" VerticalAlignment="Top" Foreground="White" Height="25" FontFamily="Bahnschrift Condensed"/>
         <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="606,243,0,0" VerticalAlignment="Top"/>
-
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#00707070" Width="56" Height="50" Click="Back">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/back.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

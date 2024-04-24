@@ -67,5 +67,10 @@ namespace PianoProject.Pages.Managers
         {
             pianodg.ItemsSource = AppData.db.Piano.ToList();
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ManagerPianoPage()); 
+        }
     }
 }

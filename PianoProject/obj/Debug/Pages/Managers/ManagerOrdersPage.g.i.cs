@@ -113,6 +113,14 @@ namespace PianoProject.Pages.Managers {
             #line default
             #line hidden
             return;
+            case 6:
+            
+            #line 229 "..\..\..\..\Pages\Managers\ManagerOrdersPage.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Back);
+            
+            #line default
+            #line hidden
+            return;
             }
             this._contentLoaded = true;
         }

@@ -66,6 +66,11 @@ namespace PianoProject.Pages.Admins
                 MessageBox.Show("Ошибка");
             }
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AdminUserPage());    
+        }
     }
 }
 

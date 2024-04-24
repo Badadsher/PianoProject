@@ -227,5 +227,10 @@
         <Button Style="{DynamicResource ButtonStyle1}" Content="Удалить" HorizontalAlignment="Left" Margin="257,402,0,0" VerticalAlignment="Top" Background="#FFDE3838" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Delete"/>
         <Button Style="{DynamicResource ButtonStyle1}" Content="Обновить" HorizontalAlignment="Left" Margin="391,402,0,0" VerticalAlignment="Top" Background="#FFC5D464" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Refresh"/>
         <Button Style="{DynamicResource ButtonStyle1}" Content="Добавить" HorizontalAlignment="Left" Margin="528,402,0,0" VerticalAlignment="Top" Background="#FF5CA7EC" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Add"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#00707070" Width="56" Height="50" Click="Back">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/back.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

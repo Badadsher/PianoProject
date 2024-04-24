@@ -49,5 +49,10 @@ namespace PianoProject.Pages.Managers
             Window adderPianoWindow = new AdderWindowPiano();
             adderPianoWindow.Show();
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ManagerChooser());
+        }
     }
 }

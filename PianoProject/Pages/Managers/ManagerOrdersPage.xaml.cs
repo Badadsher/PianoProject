@@ -50,5 +50,10 @@ namespace PianoProject.Pages.Managers
         {
             NavigationService.Navigate(new EditOrderPage());
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ManagerChooser());
+        }
     }
 }
