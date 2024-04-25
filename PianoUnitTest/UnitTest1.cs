@@ -76,8 +76,46 @@ public class UnitTest1
         Assert.IsTrue(loginPage.NavigationService.Content is Capcha);
     }
 
-    /////////////////////////////////////////////////////////////////////////////////////////////
-    ///
+    ////////////////////////////////////////////////////////////////////////////////////////////CapchaTest
+
+    [TestClass]
+    public class CapchaTests
+    {
+        [TestMethod]
+        public void TestVerifyCapcha_Success()
+        {
+            // Arrange
+            var capchaPage = new PianoProject.Pages.Capcha();
+            var expectedCapcha = capchaPage.capchaText.Text;
+
+            // Act
+            capchaPage.inputCapcha.Text = expectedCapcha;
+            capchaPage.verifyCapcha_Click(null, null);
+            var navigationService = capchaPage.NavigationService;
+
+            // Assert
+            Assert.IsTrue(navigationService.Content is PianoProject.Pages.Login);
+            Assert.AreEqual("Успешно!", MessageBox.SimulatedMessages[0]);
+        }
+
+        [TestMethod]
+        public void TestVerifyCapcha_Failure()
+        {
+            // Arrange
+            var capchaPage = new PianoProject.Pages.Capcha();
+            var expectedCapcha = capchaPage.capchaText.Text;
+
+            // Act
+            capchaPage.inputCapcha.Text = "1234"; // Some incorrect capcha
+            capchaPage.verifyCapcha_Click(null, null);
+            var navigationService = capchaPage.NavigationService;
+
+            // Assert
+            Assert.IsFalse(navigationService.Content is PianoProject.Pages.Login);
+            Assert.AreEqual("Ошибка!", MessageBox.SimulatedMessages[0]);
+        }
+    }
+}
 
     //[TestClass]
     //public class RegInTests
