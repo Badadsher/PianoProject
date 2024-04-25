@@ -3,7 +3,62 @@
   "WorkspaceRootPath": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\adminuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4069B0CA-7B14-44DB-B41C-D4349BCB2552}|..\\PianoUnitTest\\PianoUnitTest.csproj|f:\\users\\\u0430\u043B\u0438\u0448\u0435\u0440\\downloads\\pianoproject\\pianounittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\regin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\regin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\model\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:model\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\regin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\regin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\capcha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\capcha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\adderuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\adderuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\edituseradminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\edituseradminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\adderwindoworder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindoworder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\adderwindowpiano.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindowpiano.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editpianopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editpianopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\managerchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\managerchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|f:\\users\\\u0430\u043B\u0438\u0448\u0435\u0440\\downloads\\pianoproject\\pianoproject\\pages\\admins\\adminuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\adminuserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,24 +70,12 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\edituseradminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\edituseradminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\edituseradminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editpianopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editpianopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\editpianopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\editpianopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\managerpianopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +90,8 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\managerpianopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|f:\\users\\\u0430\u043B\u0438\u0448\u0435\u0440\\downloads\\pianoproject\\pianoproject\\pages\\managers\\managerorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\managerorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\managerorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\managerchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\managerchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -63,10 +102,6 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\capcha.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\capcha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\capcha.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -75,24 +110,8 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\regin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\regin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\adderuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\adderuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\adderuserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +126,6 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindoworder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\adderwindoworder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindoworder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\adderwindowpiano.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindowpiano.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,10 +136,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\admins\\adminchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\admins\\adminchooser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\adderwindowpiano.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\managers\\adderwindowpiano.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\managers\\managerchooser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,14 +164,6 @@
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\regin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\regin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\model\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:model\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\pages\\cart.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{904C8442-9888-4B54-9B69-F8BC87044E1A}|PianoProject.csproj|solutionrelative:pages\\cart.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -176,11 +179,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoUnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\PianoUnitTest\\UnitTest1.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoUnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "..\\PianoUnitTest\\UnitTest1.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwHsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T18:02:16.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml.cs",
+              "RelativeToolTip": "Pages\\Login.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwCAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:29:07.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EditOrderPage.xaml",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditOrderPage.xaml",
               "RelativeDocumentMoniker": "Pages\\Managers\\EditOrderPage.xaml",
@@ -192,58 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditOrderPage.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditOrderPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Managers\\EditOrderPage.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditOrderPage.xaml.cs",
-              "RelativeToolTip": "Pages\\Managers\\EditOrderPage.xaml.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAwEYAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:35:50.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditPianoPage.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\EditPianoPage.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml",
-              "RelativeToolTip": "Pages\\Managers\\EditPianoPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:59:50.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EditPianoPage.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Managers\\EditPianoPage.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml.cs",
-              "RelativeToolTip": "Pages\\Managers\\EditPianoPage.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAwEgAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:59:48.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditUserAdminPage.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\EditUserAdminPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admins\\EditUserAdminPage.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\EditUserAdminPage.xaml.cs",
-              "RelativeToolTip": "Pages\\Admins\\EditUserAdminPage.xaml.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:07.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "EditUserAdminPage.xaml",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\EditUserAdminPage.xaml",
               "RelativeDocumentMoniker": "Pages\\Admins\\EditUserAdminPage.xaml",
@@ -255,45 +233,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminUserPage.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\Admins\\AdminUserPage.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml",
-              "RelativeToolTip": "Pages\\Admins\\AdminUserPage.xaml",
+              "DocumentIndex": 11,
+              "Title": "AdderWindowPiano.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowPiano.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowPiano.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowPiano.xaml",
+              "RelativeToolTip": "Pages\\Managers\\AdderWindowPiano.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.516Z",
+              "WhenOpened": "2024-04-24T14:29:07.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminUserPage.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admins\\AdminUserPage.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml.cs",
-              "RelativeToolTip": "Pages\\Admins\\AdminUserPage.xaml.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwFMAAAA7AAAA",
+              "DocumentIndex": 10,
+              "Title": "AdderWindowOrder.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowOrder.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml",
+              "RelativeToolTip": "Pages\\Managers\\AdderWindowOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T15:25:24.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml",
+              "RelativeDocumentMoniker": "Pages\\Login.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml",
+              "RelativeToolTip": "Pages\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegIn.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RegIn.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml.cs",
+              "RelativeToolTip": "Pages\\RegIn.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA0wBwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:59:15.83Z",
+              "WhenOpened": "2024-04-24T14:29:07.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManagerPianoPage.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerPianoPage.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml.cs",
-              "RelativeToolTip": "Pages\\Managers\\ManagerPianoPage.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDYAAAA9AAAA",
+              "DocumentIndex": 3,
+              "Title": "RegIn.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml",
+              "RelativeDocumentMoniker": "Pages\\RegIn.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml",
+              "RelativeToolTip": "Pages\\RegIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppData.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\AppData.cs",
+              "RelativeDocumentMoniker": "Model\\AppData.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\AppData.cs",
+              "RelativeToolTip": "Model\\AppData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:07.636Z",
+              "WhenOpened": "2024-04-24T14:29:07.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "EditPianoPage.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\EditPianoPage.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml",
+              "RelativeToolTip": "Pages\\Managers\\EditPianoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:59:50.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManagerChooser.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerChooser.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerChooser.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerChooser.xaml",
+              "RelativeToolTip": "Pages\\Managers\\ManagerChooser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ManagerOrdersPage.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerOrdersPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Managers\\ManagerOrdersPage.xaml.cs",
@@ -301,12 +339,231 @@
               "RelativeToolTip": "Pages\\Managers\\ManagerOrdersPage.xaml.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAAwDcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:06.841Z",
+              "WhenOpened": "2024-04-24T14:29:06.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ec2279b0c1b10bade516deb7a6ed574ffbc9e8dc415c2824fec45e787355ee43\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ec2279b0c1b10bade516deb7a6ed574ffbc9e8dc415c2824fec45e787355ee43\\NavigationService.cs",
+              "ViewState": "AQIAAI8EAAAAAAAAAAAawJsEAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T09:05:13.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditUserAdminPage.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\EditUserAdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admins\\EditUserAdminPage.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\EditUserAdminPage.xaml.cs",
+              "RelativeToolTip": "Pages\\Admins\\EditUserAdminPage.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:29:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cart.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml",
+              "RelativeDocumentMoniker": "Pages\\Cart.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml",
+              "RelativeToolTip": "Pages\\Cart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdderUserWindow.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml",
+              "RelativeDocumentMoniker": "Pages\\Admins\\AdderUserWindow.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml",
+              "RelativeToolTip": "Pages\\Admins\\AdderUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 6,
+              "Title": "Capcha.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Capcha.xaml",
+              "RelativeDocumentMoniker": "Pages\\Capcha.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Capcha.xaml",
+              "RelativeToolTip": "Pages\\Capcha.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "cart.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\cart.cs",
+              "RelativeDocumentMoniker": "Model\\cart.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\cart.cs",
+              "RelativeToolTip": "Model\\cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:50:55.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManagerOrdersPage.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerOrdersPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerOrdersPage.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerOrdersPage.xaml",
+              "RelativeToolTip": "Pages\\Managers\\ManagerOrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:06.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminChooser.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminChooser.xaml",
+              "RelativeDocumentMoniker": "Pages\\Admins\\AdminChooser.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminChooser.xaml",
+              "RelativeToolTip": "Pages\\Admins\\AdminChooser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdderUserWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admins\\AdderUserWindow.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml.cs",
+              "RelativeToolTip": "Pages\\Admins\\AdderUserWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAjwCcAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:29:07.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Cart.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Cart.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml.cs",
+              "RelativeToolTip": "Pages\\Cart.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:40:00.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminUserPage.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admins\\AdminUserPage.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml.cs",
+              "RelativeToolTip": "Pages\\Admins\\AdminUserPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwFMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:59:15.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ManagerPianoPage.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerPianoPage.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml",
+              "RelativeToolTip": "Pages\\Managers\\ManagerPianoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManagerPianoPage.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerPianoPage.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml.cs",
+              "RelativeToolTip": "Pages\\Managers\\ManagerPianoPage.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:29:07.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Catalog.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Catalog.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml.cs",
+              "RelativeToolTip": "Pages\\Catalog.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAlwCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:29:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Pages\\Catalog.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml",
+              "RelativeToolTip": "Pages\\Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:06.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml.cs",
+              "RelativeToolTip": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswB0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:28:37.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditPianoPage.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Managers\\EditPianoPage.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditPianoPage.xaml.cs",
+              "RelativeToolTip": "Pages\\Managers\\EditPianoPage.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAwEgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:59:48.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminUserPage.xaml",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\Admins\\AdminUserPage.xaml",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminUserPage.xaml",
+              "RelativeToolTip": "Pages\\Admins\\AdminUserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T14:29:07.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "Saver.cs",
               "DocumentMoniker": "C:\\Users\\Heisenberg\\AppData\\Local\\Temp\\Rar$DIa17236.22583\\Saver.cs",
               "ToolTip": "C:\\Users\\Heisenberg\\AppData\\Local\\Temp\\Rar$DIa17236.22583\\Saver.cs",
@@ -316,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "AdderWindowPiano.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowPiano.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowPiano.xaml.cs",
@@ -328,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "AdminChooser.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminChooser.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Admins\\AdminChooser.xaml.cs",
@@ -340,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Cart.xaml",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml",
               "RelativeDocumentMoniker": "Pages\\Cart.xaml",
@@ -352,52 +609,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "AdderWindowPiano.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowPiano.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowPiano.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowPiano.xaml",
-              "RelativeToolTip": "Pages\\Managers\\AdderWindowPiano.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.508Z"
+              "DocumentIndex": 17,
+              "Title": "EditOrderPage.xaml.cs",
+              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditOrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Managers\\EditOrderPage.xaml.cs",
+              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\EditOrderPage.xaml.cs",
+              "RelativeToolTip": "Pages\\Managers\\EditOrderPage.xaml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwEYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:35:50.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ManagerPianoPage.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerPianoPage.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerPianoPage.xaml",
-              "RelativeToolTip": "Pages\\Managers\\ManagerPianoPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml",
-              "RelativeDocumentMoniker": "Pages\\Login.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml",
-              "RelativeToolTip": "Pages\\Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Cart.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml",
-              "RelativeDocumentMoniker": "Pages\\Cart.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml",
-              "RelativeToolTip": "Pages\\Cart.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Capcha.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Capcha.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Capcha.xaml.cs",
@@ -413,189 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "cart.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\cart.cs",
-              "RelativeDocumentMoniker": "Model\\cart.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\cart.cs",
-              "RelativeToolTip": "Model\\cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:50:55.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManagerOrdersPage.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerOrdersPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerOrdersPage.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerOrdersPage.xaml",
-              "RelativeToolTip": "Pages\\Managers\\ManagerOrdersPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:06.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AdminChooser.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminChooser.xaml",
-              "RelativeDocumentMoniker": "Pages\\Admins\\AdminChooser.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdminChooser.xaml",
-              "RelativeToolTip": "Pages\\Admins\\AdminChooser.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ManagerChooser.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerChooser.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\ManagerChooser.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerChooser.xaml",
-              "RelativeToolTip": "Pages\\Managers\\ManagerChooser.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegIn.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml",
-              "RelativeDocumentMoniker": "Pages\\RegIn.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml",
-              "RelativeToolTip": "Pages\\RegIn.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Catalog.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Catalog.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml.cs",
-              "RelativeToolTip": "Pages\\Catalog.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAlwCUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:07.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Catalog.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml",
-              "RelativeDocumentMoniker": "Pages\\Catalog.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Catalog.xaml",
-              "RelativeToolTip": "Pages\\Catalog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:06.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml.cs",
-              "RelativeToolTip": "Pages\\Managers\\AdderWindowOrder.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswB0AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:28:37.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdderWindowOrder.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml",
-              "RelativeDocumentMoniker": "Pages\\Managers\\AdderWindowOrder.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\AdderWindowOrder.xaml",
-              "RelativeToolTip": "Pages\\Managers\\AdderWindowOrder.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T15:25:24.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ec2279b0c1b10bade516deb7a6ed574ffbc9e8dc415c2824fec45e787355ee43\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\.vsdbgsrc\\ec2279b0c1b10bade516deb7a6ed574ffbc9e8dc415c2824fec45e787355ee43\\NavigationService.cs",
-              "ViewState": "AQIAAI8EAAAAAAAAAAAawJsEAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T09:05:13.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Login.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Login.xaml.cs",
-              "RelativeToolTip": "Pages\\Login.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowCUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:07.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AdderUserWindow.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml",
-              "RelativeDocumentMoniker": "Pages\\Admins\\AdderUserWindow.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml",
-              "RelativeToolTip": "Pages\\Admins\\AdderUserWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AdderUserWindow.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admins\\AdderUserWindow.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Admins\\AdderUserWindow.xaml.cs",
-              "RelativeToolTip": "Pages\\Admins\\AdderUserWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAjwCcAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:29:07.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Cart.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Cart.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Cart.xaml.cs",
-              "RelativeToolTip": "Pages\\Cart.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:40:00.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Capcha.xaml",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Capcha.xaml",
-              "RelativeDocumentMoniker": "Pages\\Capcha.xaml",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Capcha.xaml",
-              "RelativeToolTip": "Pages\\Capcha.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T14:29:07.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\Model1.edmx",
               "RelativeDocumentMoniker": "Model\\Model1.edmx",
@@ -606,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Saver.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Saver.cs",
               "RelativeDocumentMoniker": "Saver.cs",
@@ -618,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "ManagerChooser.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\Managers\\ManagerChooser.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Managers\\ManagerChooser.xaml.cs",
@@ -630,31 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AppData.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\AppData.cs",
-              "RelativeDocumentMoniker": "Model\\AppData.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Model\\AppData.cs",
-              "RelativeToolTip": "Model\\AppData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-04-24T14:29:07.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "RegIn.xaml.cs",
-              "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\RegIn.xaml.cs",
-              "ToolTip": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\Pages\\RegIn.xaml.cs",
-              "RelativeToolTip": "Pages\\RegIn.xaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAPAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-04-24T14:29:07.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "App.config",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -666,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "F:\\Users\\\u0410\u043B\u0438\u0448\u0435\u0440\\Downloads\\PianoProject\\PianoProject\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",

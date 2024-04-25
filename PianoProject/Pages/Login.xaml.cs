@@ -30,8 +30,8 @@ namespace PianoProject.Pages
 
 
         private int failedAttempts = 0;
-
-        private void LogInBtn_Click(object sender, RoutedEventArgs e)
+      
+        public void LogInBtn_Click(object sender, RoutedEventArgs e)
         {
             try
             {

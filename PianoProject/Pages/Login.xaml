@@ -171,8 +171,8 @@
             </Rectangle.Fill>
 
         </Rectangle>
-        <TextBox Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}"  HorizontalAlignment="Center" TextWrapping="Wrap"   VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,171,0,0" Foreground="White"/>
-        <PasswordBox x:Name="TxbPassword" Style="{DynamicResource PasswordBoxStyle1}" HorizontalContentAlignment="Center"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="296" Height="36" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,228,0,0" Foreground="White"/>
+        <TextBox Name="TxbLogin" Style="{DynamicResource TextBoxStyle1}"  x:FieldModifier="public" HorizontalAlignment="Center" TextWrapping="Wrap"   VerticalAlignment="Top" Width="296" Height="36" TextAlignment="Center" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,171,0,0" Foreground="White"/>
+        <PasswordBox x:Name="TxbPassword" Style="{DynamicResource PasswordBoxStyle1}" x:FieldModifier="public" HorizontalContentAlignment="Center"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="296" Height="36" Background="#83FFFFFF" BorderBrush="#FF020202" Margin="0,228,0,0" Foreground="White"/>
         <Button x:Name="LogInBtn" Style="{DynamicResource ButtonStyle1}"  Content="Log In" HorizontalAlignment="Center" Margin="0,281,0,0" VerticalAlignment="Top" Width="86" Background="#FF7BE379" Height="21" BorderBrush="Black" Click="LogInBtn_Click"/>
         <Label Content="no account?" HorizontalAlignment="Left" Margin="348,312,0,0" VerticalAlignment="Top" Foreground="White"/>
         <Button x:Name="RegInBtn" Content=" Reg In." HorizontalAlignment="Left" Margin="414,315,0,0" VerticalAlignment="Top" Foreground="#FF0084FF" Opacity="1" Background="#00DDDDDD" BorderBrush="#00707070" Click="RegInBtn_Click"/>

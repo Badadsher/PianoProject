@@ -34,7 +34,7 @@ namespace PianoProject.Pages
             capchaText.Text = random.Next(1000, 9999).ToString();
         }
 
-        private void verifyCapcha_Click(object sender, RoutedEventArgs e)
+        public void verifyCapcha_Click(object sender, RoutedEventArgs e)
         {
             try
             {
