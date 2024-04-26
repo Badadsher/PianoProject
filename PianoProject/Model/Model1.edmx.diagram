@@ -4,14 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bca8247f4520402ea3c93ced4e0f86a1" Name="Diagram1">
-        <EntityTypeShape EntityType="PianooModel.cart" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="PianooModel.Orders" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="PianooModel.Piano" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
-        <EntityTypeShape EntityType="PianooModel.Roles" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="PianooModel.Users" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+      <Diagram DiagramId="34cfc72add9841ae93013d6f849c0bc2" Name="Diagram1">
+        <EntityTypeShape EntityType="PianooModel.cart" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PianooModel.Orders" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PianooModel.Piano" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PianooModel.Roles" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PianooModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PianooModel.Users" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="PianooModel.FK_cart_Piano" ManuallyRouted="false" />
-        <AssociationConnector Association="PianooModel.FK_cart_Users" ManuallyRouted="false" />
         <AssociationConnector Association="PianooModel.FK_Orders_Piano" ManuallyRouted="false" />
         <AssociationConnector Association="PianooModel.FK_Orders_Users" ManuallyRouted="false" />
         <AssociationConnector Association="PianooModel.FK_Users_Roles" ManuallyRouted="false" />

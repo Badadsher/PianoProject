@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:PianoProject.Pages.Managers"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="EditOrderPage">
+      Title="EditOrderPage" Loaded="Page_Loaded">
 
     <Page.Resources>
         <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
@@ -202,9 +202,10 @@
         </Button>
         <DataGrid Style="{DynamicResource DataGridStyle1}"  x:Name="orderdg" AutoGenerateColumns="False" Margin="13,77,314,103">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price}"/>
-                <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Model}"/>
-                <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Count}"/>
+                <DataGridTextColumn Header="ID" Width="*" Binding="{Binding IDOrder}"/>
+                <DataGridTextColumn Header="IdPiano" Width="*" Binding="{Binding IdPiano}"/>
+                <DataGridTextColumn Header="IdUser" Width="*" Binding="{Binding IdUser}"/>
+                <DataGridTextColumn Header="Дата покупки" Width="*" Binding="{Binding SaleDate}"/>
 
             </DataGrid.Columns> 4
         </DataGrid>

@@ -72,6 +72,9 @@ namespace PianoProject.Pages.Admins
         {
             var curUser = UsersGrid.SelectedItem as Users;
             curUser.IdRole = 4;
+            AppData.db.SaveChanges();
+            MessageBox.Show("Успешно");
+         
         }
 
         private void Edit(object sender, RoutedEventArgs e)

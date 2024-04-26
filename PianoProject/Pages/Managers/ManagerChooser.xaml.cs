@@ -34,5 +34,10 @@ namespace PianoProject.Pages.Managers
         {
             NavigationService.Navigate(new ManagerOrdersPage());
         }
+
+        private void Open_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

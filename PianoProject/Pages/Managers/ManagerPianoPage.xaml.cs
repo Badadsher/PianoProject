@@ -24,7 +24,7 @@ namespace PianoProject.Pages.Managers
         public ManagerPianoPage()
         {
             InitializeComponent();
-            pianodg.ItemsSource = AppData.db.Piano.ToList();
+           
         }
 
         private void Edit(object sender, RoutedEventArgs e)
@@ -36,12 +36,15 @@ namespace PianoProject.Pages.Managers
         {
             var curPiano = pianodg.SelectedItem as Piano;
             AppData.db.Piano.Remove(curPiano);
+            MessageBox.Show("Успешно");
+            AppData.db.SaveChanges();
         }
 
         private void Refresh(object sender, RoutedEventArgs e)
         {
             pianodg.ItemsSource = AppData.db.Piano.ToList();
             MessageBox.Show("Обновлено");
+
         }
 
         private void Add(object sender, RoutedEventArgs e)
@@ -53,6 +56,34 @@ namespace PianoProject.Pages.Managers
         private void Back(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new ManagerChooser());
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            pianodg.Items.Clear();
+            pianodg.ItemsSource = AppData.db.Piano.ToList();
+        }
+
+        private void Search_Tbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                string searchQuery = Search_Tbox.Text.Trim();
+
+                if (string.IsNullOrEmpty(searchQuery))
+                {
+                    pianodg.ItemsSource = AppData.db.Piano.ToList();
+                }
+                else
+                {
+
+                    pianodg.ItemsSource = AppData.db.Piano.Where(piano => piano.Model.Contains(searchQuery)).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

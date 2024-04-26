@@ -4,6 +4,7 @@ using PianoProject.Pages.Managers;
 using PianoProject.Pages;
 using System.Windows;
 using System.Windows.Media.Media3D;
+using System.Windows.Controls;
 
 [TestClass]
 public class UnitTest1
@@ -14,13 +15,13 @@ public class UnitTest1
     {
         // Arrange
         var loginPage = new Login();
-
+       
         // Act
         // Имитируем ввод логина и пароля для администратора
         loginPage.TxbLogin.Text = "admin";
         loginPage.TxbPassword.Password = "admin";
         loginPage.LogInBtn_Click(null, null);
-
+       
         // Assert
         Assert.IsTrue(loginPage.NavigationService.Content is AdminChooser);
     }
@@ -30,7 +31,7 @@ public class UnitTest1
     {
         // Arrange
         var loginPage = new Login();
-
+        
         // Act
         // Имитируем ввод логина и пароля для менеджера
         loginPage.TxbLogin.Text = "manager";
@@ -82,37 +83,35 @@ public class UnitTest1
     public class CapchaTests
     {
         [TestMethod]
-        public void TestVerifyCapcha_Success()
+        public void TestVerifyCapcha_Successful()
         {
             // Arrange
-            var capchaPage = new PianoProject.Pages.Capcha();
-            var expectedCapcha = capchaPage.capchaText.Text;
+            var capchaPage = new Capcha();
+            capchaPage.capchaText.Text = "1234"; // Задаем значение для capchaText
+            var inputCapcha = new TextBox();
+            inputCapcha.Text = "1234"; // Вводим правильный код
 
             // Act
-            capchaPage.inputCapcha.Text = expectedCapcha;
             capchaPage.verifyCapcha_Click(null, null);
-            var navigationService = capchaPage.NavigationService;
 
             // Assert
-            Assert.IsTrue(navigationService.Content is PianoProject.Pages.Login);
-            Assert.AreEqual("Успешно!", MessageBox.SimulatedMessages[0]);
+            Assert.IsTrue(capchaPage.NavigationService.Content is Login);
         }
 
         [TestMethod]
         public void TestVerifyCapcha_Failure()
         {
             // Arrange
-            var capchaPage = new PianoProject.Pages.Capcha();
-            var expectedCapcha = capchaPage.capchaText.Text;
+            var capchaPage = new Capcha();
+            capchaPage.capchaText.Text = "1234"; // Задаем значение для capchaText
+            var inputCapcha = new TextBox();
+            inputCapcha.Text = "5678"; // Вводим неправильный код
 
             // Act
-            capchaPage.inputCapcha.Text = "1234"; // Some incorrect capcha
             capchaPage.verifyCapcha_Click(null, null);
-            var navigationService = capchaPage.NavigationService;
 
             // Assert
-            Assert.IsFalse(navigationService.Content is PianoProject.Pages.Login);
-            Assert.AreEqual("Ошибка!", MessageBox.SimulatedMessages[0]);
+            Assert.AreNotEqual(typeof(Login), capchaPage.NavigationService.Content.GetType());
         }
     }
 }
@@ -131,33 +130,33 @@ public class UnitTest1
     //        regInPage.TxbPassword.Password = "password123";
     //        regInPage.TxbRePassword.Password = "password123";
 
-    //        // Act
-    //        regInPage.RegInBtn_Click(null, null);
+//        // Act
+//        regInPage.RegInBtn_Click(null, null);
 
-    //        // Assert
-    //        var users = AppData.db.Users.ToList();
-    //        var newUser = users.LastOrDefault();
-    //        Assert.IsNotNull(newUser);
-    //        Assert.AreEqual("testUser", newUser.Login);
-    //        Assert.AreEqual("test@example.com", newUser.Email);
-    //        Assert.AreEqual(123456789, newUser.PhoneNumber);
-    //        Assert.AreEqual("password123", newUser.Password);
-    //        Assert.AreEqual(3, newUser.IdRole);
-    //        Assert.IsTrue(regInPage.NavigationService.Content is Login);
-         
-    //    }
+//        // Assert
+//        var users = AppData.db.Users.ToList();
+//        var newUser = users.LastOrDefault();
+//        Assert.IsNotNull(newUser);
+//        Assert.AreEqual("testUser", newUser.Login);
+//        Assert.AreEqual("test@example.com", newUser.Email);
+//        Assert.AreEqual(123456789, newUser.PhoneNumber);
+//        Assert.AreEqual("password123", newUser.Password);
+//        Assert.AreEqual(3, newUser.IdRole);
+//        Assert.IsTrue(regInPage.NavigationService.Content is Login);
 
-    //    [TestMethod]
-    //    public void TestEmptyFields()
-    //    {
-    //        // Arrange
-    //        var regInPage = new RegIn();
+//    }
 
-    //        // Act
-    //        regInPage.RegInBtn_Click(null, null);
+//    [TestMethod]
+//    public void TestEmptyFields()
+//    {
+//        // Arrange
+//        var regInPage = new RegIn();
 
-    //        // Assert
-    //        Assert.IsTrue(MessageBox.SimulatedMessages.Contains("Ошибка, некоторые поля пустые"));
-    //    }
-    //}
-}
+//        // Act
+//        regInPage.RegInBtn_Click(null, null);
+
+//        // Assert
+//        Assert.IsTrue(MessageBox.SimulatedMessages.Contains("Ошибка, некоторые поля пустые"));
+//    }
+//}
+

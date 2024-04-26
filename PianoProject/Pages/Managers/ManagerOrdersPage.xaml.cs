@@ -25,7 +25,7 @@ namespace PianoProject.Pages.Managers
         public ManagerOrdersPage()
         {
             InitializeComponent();
-            orderdg.ItemsSource = AppData.db.Orders.ToList();   
+      
         }
 
         private void Refresh(object sender, RoutedEventArgs e)
@@ -44,6 +44,8 @@ namespace PianoProject.Pages.Managers
         {
             var curOrder = orderdg.SelectedItem as Orders;
             AppData.db.Orders.Remove(curOrder);
+            MessageBox.Show("Успешно");
+            AppData.db.SaveChanges();
         }
 
         private void Edit(object sender, RoutedEventArgs e)
@@ -55,5 +57,12 @@ namespace PianoProject.Pages.Managers
         {
             NavigationService.Navigate(new ManagerChooser());
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            orderdg.Items.Clear();
+            orderdg.ItemsSource = AppData.db.Orders.ToList();
+        }
+
     }
 }

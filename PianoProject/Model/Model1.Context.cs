@@ -29,6 +29,7 @@ namespace PianoProject.Model
         public virtual DbSet<Orders> Orders { get; set; }
         public virtual DbSet<Piano> Piano { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Users> Users { get; set; }
     }
 }

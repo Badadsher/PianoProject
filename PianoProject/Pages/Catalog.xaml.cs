@@ -41,16 +41,25 @@ namespace PianoProject.Pages
 
         private void BuyBTN(object sender, RoutedEventArgs e)
         {
-            var curPiano = dg.SelectedItem as Piano;
-            curPiano.Count --;
-            
-            cart carton = new cart();
-            carton.IDCart = AppData.db.cart.Any() ? AppData.db.cart.Max(u => u.IDCart) + 1 : 1;
-            carton.PianoID = curPiano.IDPianino;
-            carton.IDUser = Saver.SaveLog;
+            try
+            {
+                var curPiano = dg.SelectedItem as Piano;
+                curPiano.Count--;
 
-            AppData.db.cart.Add(carton);
-            AppData.db.SaveChanges();
+                cart carton = new cart();
+                carton.IDCart = AppData.db.cart.Any() ? AppData.db.cart.Max(u => u.IDCart) + 1 : 1;
+                carton.PianoID = curPiano.IDPianino;
+                carton.IDUser = Saver.SaveLog;
+                carton.PianoModel = curPiano.Model;
+
+                AppData.db.cart.Add(carton);
+                AppData.db.SaveChanges();
+
+                MessageBox.Show("Успешно");
+            }
+          catch(Exception ex) { 
+                MessageBox.Show(ex.Message);
+                }
         }
     }
 }

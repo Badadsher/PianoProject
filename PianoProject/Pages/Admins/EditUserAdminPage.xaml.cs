@@ -25,12 +25,12 @@ namespace PianoProject.Pages.Admins
         public EditUserAdminPage()
         {
             InitializeComponent();
-            UsersGrid.ItemsSource = AppData.db.Users.ToList();
+        
         }
 
         private void Edit(object sender, RoutedEventArgs e)
         {
-            var curUser = UsersGrid.SelectedItem as Users;
+            var curUser = UsersGridForEdit.SelectedItem as Users;
             try
             {
                 if (!string.IsNullOrEmpty(loginbox.Text) && !string.IsNullOrEmpty(idrolebox.Text) && !string.IsNullOrEmpty(passbox.Text) && !string.IsNullOrEmpty(emailbox.Text) && !string.IsNullOrEmpty(phonebox.Text))
@@ -70,6 +70,12 @@ namespace PianoProject.Pages.Admins
         private void Back(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new AdminUserPage());    
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            UsersGridForEdit.Items.Clear();
+            UsersGridForEdit.ItemsSource = AppData.db.Users.ToList();
         }
     }
 }

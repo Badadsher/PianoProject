@@ -1,17 +1,20 @@
 ﻿
 
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\MainWindow.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Admins\AdderUserWindow.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Admins\AdminChooser.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Admins\AdminUserPage.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Admins\EditUserAdminPage.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Capcha.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Cart.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Catalog.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Login.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Managers\AdderWindowPiano.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Managers\ManagerChooser.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Managers\ManagerOrdersPage.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\Managers\ManagerPianoPage.xaml;;
-FF:\Users\Алишер\Downloads\PianoProject\PianoProject\Pages\RegIn.xaml;;
+FE:\Piano\PianoProject\PianoProject\MainWindow.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdderUserWindow.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdminChooser.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Admins\AdminUserPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Admins\EditUserAdminPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Capcha.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Cart.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Catalog.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Login.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\AdderWindowOrder.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\AdderWindowPiano.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\EditOrderPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\EditPianoPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerChooser.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerOrdersPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\Managers\ManagerPianoPage.xaml;;
+FE:\Piano\PianoProject\PianoProject\Pages\RegIn.xaml;;
 

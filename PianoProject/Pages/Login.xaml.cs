@@ -39,14 +39,19 @@ namespace PianoProject.Pages
 
                 if (CurrentUser != null && CurrentUser.IdRole == 1)
                 {
+                    Saver.SaveLog = CurrentUser.ID;
                     NavigationService.Navigate(new AdminChooser());
                 }
                 else if (CurrentUser != null && CurrentUser.IdRole == 2)
                 {
+                    Saver.SaveLog = CurrentUser.ID;
+                    Saver.SaveLog = 1;
                     NavigationService.Navigate(new ManagerChooser());
                 }
                 else if (CurrentUser != null && CurrentUser.IdRole == 3)
                 {
+                    Saver.SaveLog = CurrentUser.ID;
+                    Saver.SaveLog = 1;
                     NavigationService.Navigate(new Catalog());
                 }
                 else if (CurrentUser != null && CurrentUser.IdRole == 4)
@@ -67,9 +72,9 @@ namespace PianoProject.Pages
                     }
                 }
             }
-            catch
+            catch(Exception er)
             {
-                MessageBox.Show("Ошибка");
+                MessageBox.Show(er.Message);
             }
         }
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PianoProject.Pages"
         mc:Ignorable="d"
-        Title="Cart" Height="450" Width="800">
+        Title="Cart" Height="450" Width="800" Loaded="Window_Loaded">
 
 	 <Window.Resources>
         <Style x:Key="{ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}" TargetType="{x:Type Button}">
@@ -216,10 +216,16 @@
 		
 	<Grid Background="#FF373737">
 		<Label Content="Cart List" HorizontalAlignment="Left" Margin="6,6,0,0" VerticalAlignment="Top" Width="195" Height="55" FontSize="29" Foreground="White" OpacityMask="Black" FontFamily="Perpetua Titling MT"/>
-		<DataGrid x:Name="orderdg"  Style="{DynamicResource DataGridStyle1}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="52,86,54,135"
+		<DataGrid x:Name="cartdg"  Style="{DynamicResource DataGridStyle1}" AutoGenerateColumns="False" Margin="52,86,54,135"
 				 >
-		
-	</DataGrid>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="IDPiano" Width="*" Binding="{Binding PianoID}"/>
+                <DataGridTextColumn Header="Модель пианино в корзине" Width="*" Binding="{Binding PianoModel}"/>
+               
+
+            </DataGrid.Columns> 
+        </DataGrid>
 		<Button Style="{DynamicResource ButtonStyle1}"  Content="Купить" HorizontalAlignment="Center" Margin="0,327,0,0" VerticalAlignment="Top" Width="182" Height="44" Background="#FFB5FF4F" Click="BuyBT"/>
 	</Grid>
 

@@ -12,6 +12,7 @@
           <Property Name="IDCart" Type="int" Nullable="false" />
           <Property Name="PianoID" Type="int" Nullable="false" />
           <Property Name="IDUser" Type="int" Nullable="false" />
+          <Property Name="PianoModel" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityType Name="Orders">
           <Key>
@@ -30,7 +31,6 @@
           <Property Name="Price" Type="int" Nullable="false" />
           <Property Name="Model" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Count" Type="int" Nullable="false" />
-          <Property Name="Image" Type="varchar" MaxLength="500" Nullable="false" />
         </EntityType>
         <EntityType Name="Roles">
           <Key>
@@ -38,6 +38,16 @@
           </Key>
           <Property Name="ID" Type="int" Nullable="false" />
           <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -59,18 +69,6 @@
             </Principal>
             <Dependent Role="cart">
               <PropertyRef Name="PianoID" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_cart_Users">
-          <End Role="Users" Type="Self.Users" Multiplicity="1" />
-          <End Role="cart" Type="Self.cart" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Users">
-              <PropertyRef Name="ID" />
-            </Principal>
-            <Dependent Role="cart">
-              <PropertyRef Name="IDUser" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -115,13 +113,10 @@
           <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Piano" EntityType="Self.Piano" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_cart_Piano" Association="Self.FK_cart_Piano">
             <End Role="Piano" EntitySet="Piano" />
-            <End Role="cart" EntitySet="cart" />
-          </AssociationSet>
-          <AssociationSet Name="FK_cart_Users" Association="Self.FK_cart_Users">
-            <End Role="Users" EntitySet="Users" />
             <End Role="cart" EntitySet="cart" />
           </AssociationSet>
           <AssociationSet Name="FK_Orders_Piano" Association="Self.FK_Orders_Piano">
@@ -149,8 +144,8 @@
           <Property Name="IDCart" Type="Int32" Nullable="false" />
           <Property Name="PianoID" Type="Int32" Nullable="false" />
           <Property Name="IDUser" Type="Int32" Nullable="false" />
+          <Property Name="PianoModel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Piano" Relationship="Self.FK_cart_Piano" FromRole="cart" ToRole="Piano" />
-          <NavigationProperty Name="Users" Relationship="Self.FK_cart_Users" FromRole="cart" ToRole="Users" />
         </EntityType>
         <EntityType Name="Orders">
           <Key>
@@ -171,7 +166,6 @@
           <Property Name="Price" Type="Int32" Nullable="false" />
           <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Count" Type="Int32" Nullable="false" />
-          <Property Name="Image" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="cart" Relationship="Self.FK_cart_Piano" FromRole="Piano" ToRole="cart" />
           <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Piano" FromRole="Piano" ToRole="Orders" />
         </EntityType>
@@ -183,6 +177,16 @@
           <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Users" Relationship="Self.FK_Users_Roles" FromRole="Roles" ToRole="Users" />
         </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
         <EntityType Name="Users">
           <Key>
             <PropertyRef Name="ID" />
@@ -193,7 +197,6 @@
           <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IdRole" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="cart" Relationship="Self.FK_cart_Users" FromRole="Users" ToRole="cart" />
           <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Users" FromRole="Users" ToRole="Orders" />
           <NavigationProperty Name="Roles" Relationship="Self.FK_Users_Roles" FromRole="Users" ToRole="Roles" />
         </EntityType>
@@ -206,18 +209,6 @@
             </Principal>
             <Dependent Role="cart">
               <PropertyRef Name="PianoID" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_cart_Users">
-          <End Role="Users" Type="Self.Users" Multiplicity="1" />
-          <End Role="cart" Type="Self.cart" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Users">
-              <PropertyRef Name="ID" />
-            </Principal>
-            <Dependent Role="cart">
-              <PropertyRef Name="IDUser" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -262,13 +253,10 @@
           <EntitySet Name="Orders" EntityType="Self.Orders" />
           <EntitySet Name="Piano" EntityType="Self.Piano" />
           <EntitySet Name="Roles" EntityType="Self.Roles" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
           <EntitySet Name="Users" EntityType="Self.Users" />
           <AssociationSet Name="FK_cart_Piano" Association="Self.FK_cart_Piano">
             <End Role="Piano" EntitySet="Piano" />
-            <End Role="cart" EntitySet="cart" />
-          </AssociationSet>
-          <AssociationSet Name="FK_cart_Users" Association="Self.FK_cart_Users">
-            <End Role="Users" EntitySet="Users" />
             <End Role="cart" EntitySet="cart" />
           </AssociationSet>
           <AssociationSet Name="FK_Orders_Piano" Association="Self.FK_Orders_Piano">
@@ -296,6 +284,7 @@
                 <ScalarProperty Name="IDCart" ColumnName="IDCart" />
                 <ScalarProperty Name="PianoID" ColumnName="PianoID" />
                 <ScalarProperty Name="IDUser" ColumnName="IDUser" />
+                <ScalarProperty Name="PianoModel" ColumnName="PianoModel" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -316,7 +305,6 @@
                 <ScalarProperty Name="Price" ColumnName="Price" />
                 <ScalarProperty Name="Model" ColumnName="Model" />
                 <ScalarProperty Name="Count" ColumnName="Count" />
-                <ScalarProperty Name="Image" ColumnName="Image" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -325,6 +313,17 @@
               <MappingFragment StoreEntitySet="Roles">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="PianooModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

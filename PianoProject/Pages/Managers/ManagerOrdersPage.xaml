@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:PianoProject.Pages.Managers"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ManagerOrdersPage">
+      Title="ManagerOrdersPage" Loaded="Page_Loaded">
     <Page.Resources>
         <Style x:Key="{ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}" TargetType="{x:Type Button}">
             <Setter Property="Template">
@@ -215,13 +215,15 @@
     </Page.Resources>
 
     <Grid Background="#FF373737">
-        <DataGrid x:Name="orderdg" Style="{DynamicResource DataGridStyle1}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="84,75,84,72" Background="#FFD9D9D9"/>
-        <TextBox Style="{DynamicResource TextBoxStyle2}" HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="351" Height="32" TextAlignment="Center"/>
-        <Rectangle HorizontalAlignment="Left" Height="23" Margin="541,22,0,0" VerticalAlignment="Top" Width="22">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="/Images/search.png"/>
-            </Rectangle.Fill>
-        </Rectangle>
+        <DataGrid x:Name="orderdg" Style="{DynamicResource DataGridStyle1}" AutoGenerateColumns="False" Margin="84,75,84,72" Background="#FFD9D9D9">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="*" Binding="{Binding IDOrder}"/>
+                <DataGridTextColumn Header="IdPiano" Width="*" Binding="{Binding IdPiano}"/>
+                <DataGridTextColumn Header="IdUser" Width="*" Binding="{Binding IdUser}"/>
+                <DataGridTextColumn Header="Дата покупки" Width="*" Binding="{Binding SaleDate}"/>
+                
+            </DataGrid.Columns> 4
+        </DataGrid>
         <Button Style="{DynamicResource ButtonStyle1}" Content="Редактировать" HorizontalAlignment="Left" Margin="128,402,0,0" VerticalAlignment="Top" Background="#FFD35ADD" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Edit"/>
         <Button Style="{DynamicResource ButtonStyle1}" Content="Удалить" HorizontalAlignment="Left" Margin="257,402,0,0" VerticalAlignment="Top" Background="#FFDE3838" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Delete"/>
         <Button Style="{DynamicResource ButtonStyle1}" Content="Обновить" HorizontalAlignment="Left" Margin="391,402,0,0" VerticalAlignment="Top" Background="#FFC5D464" Foreground="White" BorderBrush="#00707070" Width="96" Height="26" Click="Refresh"/>

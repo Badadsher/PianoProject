@@ -56,5 +56,7 @@ namespace PianoProject.Pages.Managers
                 MessageBox.Show("Ошибка");
             }
         }
+
+      
     }
 }

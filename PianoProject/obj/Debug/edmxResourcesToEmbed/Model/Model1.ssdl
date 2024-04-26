@@ -7,6 +7,7 @@
     <Property Name="IDCart" Type="int" Nullable="false" />
     <Property Name="PianoID" Type="int" Nullable="false" />
     <Property Name="IDUser" Type="int" Nullable="false" />
+    <Property Name="PianoModel" Type="nvarchar" MaxLength="50" Nullable="false" />
   </EntityType>
   <EntityType Name="Orders">
     <Key>
@@ -25,7 +26,6 @@
     <Property Name="Price" Type="int" Nullable="false" />
     <Property Name="Model" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Count" Type="int" Nullable="false" />
-    <Property Name="Image" Type="varchar" MaxLength="500" Nullable="false" />
   </EntityType>
   <EntityType Name="Roles">
     <Key>
@@ -33,6 +33,16 @@
     </Key>
     <Property Name="ID" Type="int" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
@@ -54,18 +64,6 @@
       </Principal>
       <Dependent Role="cart">
         <PropertyRef Name="PianoID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_cart_Users">
-    <End Role="Users" Type="Self.Users" Multiplicity="1" />
-    <End Role="cart" Type="Self.cart" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Users">
-        <PropertyRef Name="ID" />
-      </Principal>
-      <Dependent Role="cart">
-        <PropertyRef Name="IDUser" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -110,13 +108,10 @@
     <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Piano" EntityType="Self.Piano" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_cart_Piano" Association="Self.FK_cart_Piano">
       <End Role="Piano" EntitySet="Piano" />
-      <End Role="cart" EntitySet="cart" />
-    </AssociationSet>
-    <AssociationSet Name="FK_cart_Users" Association="Self.FK_cart_Users">
-      <End Role="Users" EntitySet="Users" />
       <End Role="cart" EntitySet="cart" />
     </AssociationSet>
     <AssociationSet Name="FK_Orders_Piano" Association="Self.FK_Orders_Piano">

@@ -65,6 +65,7 @@ namespace PianoProject.Pages.Managers
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            pianodg.Items.Clear();
             pianodg.ItemsSource = AppData.db.Piano.ToList();
         }
 

@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:PianoProject.Pages.Managers"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ManagerPianoPage">
+      Title="ManagerPianoPage" Loaded="Page_Loaded">
 
     <Page.Resources>
         <Style x:Key="{ComponentResourceKey ResourceId=DataGridSelectAllButtonStyle, TypeInTargetAssembly={x:Type DataGrid}}" TargetType="{x:Type Button}">
@@ -216,8 +216,17 @@
     </Page.Resources>
 
     <Grid Background="#FF373737">
-        <DataGrid x:Name="pianodg" Style="{DynamicResource DataGridStyle1}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="84,75,84,72" Background="#FFD9D9D9"/>
-        <TextBox Style="{DynamicResource TextBoxStyle2}" HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="351" Height="32" TextAlignment="Center"/>
+        <DataGrid x:Name="pianodg" Style="{DynamicResource DataGridStyle1}" AutoGenerateColumns="False" Margin="84,75,84,72" Background="#FFD9D9D9">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="*" Binding="{Binding IDPianino}"/>
+                <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Email" Width="*" Binding="{Binding Model}"/>
+                <DataGridTextColumn Header="Номер телефона" Width="*" Binding="{Binding Count}"/>
+                
+            </DataGrid.Columns>
+           
+        </DataGrid> 
+        <TextBox x:Name="Search_Tbox" Style="{DynamicResource TextBoxStyle2}" HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="351" Height="32" TextAlignment="Center" TextChanged="Search_Tbox_TextChanged"/>
         <Rectangle HorizontalAlignment="Left" Height="23" Margin="541,22,0,0" VerticalAlignment="Top" Width="22">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="/Images/search.png"/>

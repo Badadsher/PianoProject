@@ -17,8 +17,8 @@ namespace PianoProject.Model
         public int IDCart { get; set; }
         public int PianoID { get; set; }
         public int IDUser { get; set; }
+        public string PianoModel { get; set; }
     
         public virtual Piano Piano { get; set; }
-        public virtual Users Users { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace PianoProject.Pages.Managers
         public EditOrderPage()
         {
             InitializeComponent();
-            orderdg.ItemsSource=AppData.db.Orders;
+           
         }
 
         private void Edit(object sender, RoutedEventArgs e)
@@ -69,6 +69,12 @@ namespace PianoProject.Pages.Managers
         private void Back(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new ManagerOrdersPage());    
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            orderdg.Items.Clear();
+            orderdg.ItemsSource = AppData.db.Orders.ToList();
         }
     }
 }

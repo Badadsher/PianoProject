@@ -25,7 +25,6 @@ namespace PianoProject.Model
         public int Price { get; set; }
         public string Model { get; set; }
         public int Count { get; set; }
-        public string Image { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<cart> cart { get; set; }
