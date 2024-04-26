@@ -111,9 +111,9 @@
     </Page.Resources>
 
     <Grid Background="#FF373737">
-        <TextBlock HorizontalAlignment="Center" Margin="0,64,0,0" TextWrapping="Wrap" Text="ВЫ МНОГО РАЗ НЕПРАВИЛЬНО ВВЕЛИ ПАРОЛЬ,ВВЕДИТЕ КАПЧУ!" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" FontWeight="Bold" Foreground="#FF78909C"/>
-        <TextBox x:Name="inputCapcha" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" Height="57" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBlock  HorizontalAlignment="Center" Margin="0,64,0,0" TextWrapping="Wrap" Text="ВЫ МНОГО РАЗ НЕПРАВИЛЬНО ВВЕЛИ ПАРОЛЬ,ВВЕДИТЕ КАПЧУ!" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" FontWeight="Bold" Foreground="#FF78909C"/>
+        <TextBox  x:FieldModifier="public" x:Name="inputCapcha" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" Height="57" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         <Button x:Name="verifyCapcha" Style="{DynamicResource ButtonStyle1}" Content="ПРОВЕРИТЬ" HorizontalAlignment="Center" Margin="0,299,0,0" VerticalAlignment="Top" Height="44" Width="128" Foreground="White" Background="#FBFF9C1A" Click="verifyCapcha_Click"/>
-        <TextBlock x:Name="capchaText" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="268" TextAlignment="Center" FontSize="14" FontFamily="Arial" Foreground="#FF37474F"/>
+        <TextBlock x:FieldModifier="public" x:Name="capchaText" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="27" Width="268" TextAlignment="Center" FontSize="14" FontFamily="Arial" Foreground="#FF37474F"/>
     </Grid>
 </Page>

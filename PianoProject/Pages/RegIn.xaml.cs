@@ -26,7 +26,7 @@ namespace PianoProject.Pages
             InitializeComponent();
         }
 
-        private void RegInBtn_Click(object sender, RoutedEventArgs e)
+        public void RegInBtn_Click(object sender, RoutedEventArgs e)
         {
             try { 
             if ( !string.IsNullOrEmpty(TxbLogin.Text) && !string.IsNullOrEmpty(TxbEmail.Text)
