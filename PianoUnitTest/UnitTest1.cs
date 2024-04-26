@@ -116,47 +116,4 @@ public class UnitTest1
     }
 }
 
-    //[TestClass]
-    //public class RegInTests
-    //{
-    //    [TestMethod]
-    //    public void TestSuccessfulRegistration()
-    //    {
-    //        // Arrange
-    //        var regInPage = new RegIn();
-    //        regInPage.TxbLogin.Text = "testUser";
-    //        regInPage.TxbEmail.Text = "test@example.com";
-    //        regInPage.TxbNumber.Text = "123456789";
-    //        regInPage.TxbPassword.Password = "password123";
-    //        regInPage.TxbRePassword.Password = "password123";
-
-//        // Act
-//        regInPage.RegInBtn_Click(null, null);
-
-//        // Assert
-//        var users = AppData.db.Users.ToList();
-//        var newUser = users.LastOrDefault();
-//        Assert.IsNotNull(newUser);
-//        Assert.AreEqual("testUser", newUser.Login);
-//        Assert.AreEqual("test@example.com", newUser.Email);
-//        Assert.AreEqual(123456789, newUser.PhoneNumber);
-//        Assert.AreEqual("password123", newUser.Password);
-//        Assert.AreEqual(3, newUser.IdRole);
-//        Assert.IsTrue(regInPage.NavigationService.Content is Login);
-
-//    }
-
-//    [TestMethod]
-//    public void TestEmptyFields()
-//    {
-//        // Arrange
-//        var regInPage = new RegIn();
-
-//        // Act
-//        regInPage.RegInBtn_Click(null, null);
-
-//        // Assert
-//        Assert.IsTrue(MessageBox.SimulatedMessages.Contains("Ошибка, некоторые поля пустые"));
-//    }
-//}
-
+  

@@ -42,10 +42,17 @@ namespace PianoProject.Pages.Managers
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-            var curOrder = orderdg.SelectedItem as Orders;
-            AppData.db.Orders.Remove(curOrder);
-            MessageBox.Show("Успешно");
-            AppData.db.SaveChanges();
+            try
+            {
+                var curOrder = orderdg.SelectedItem as Orders;
+                AppData.db.Orders.Remove(curOrder);
+                MessageBox.Show("Успешно");
+                AppData.db.SaveChanges();
+            }
+           catch(Exception er)
+            {
+                MessageBox.Show(er.Message);
+            }
         }
 
         private void Edit(object sender, RoutedEventArgs e)

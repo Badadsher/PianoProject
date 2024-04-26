@@ -1,0 +1,2 @@
+E:\Piano\PianoProject\PianoUnitTest\obj\Debug\PianoUnitTest.csproj.AssemblyReference.cache
+E:\Piano\PianoProject\PianoUnitTest\obj\Debug\PianoUnitTest.csproj.CoreCompileInputs.cache

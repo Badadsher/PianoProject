@@ -34,10 +34,15 @@ namespace PianoProject.Pages.Managers
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-            var curPiano = pianodg.SelectedItem as Piano;
-            AppData.db.Piano.Remove(curPiano);
-            MessageBox.Show("Успешно");
-            AppData.db.SaveChanges();
+            try
+            {
+                var curPiano = pianodg.SelectedItem as Piano;
+                AppData.db.Piano.Remove(curPiano);
+                MessageBox.Show("Успешно");
+                AppData.db.SaveChanges();
+            }
+        catch(Exception ex) { 
+                MessageBox.Show(ex.Message);}
         }
 
         private void Refresh(object sender, RoutedEventArgs e)

@@ -70,10 +70,17 @@ namespace PianoProject.Pages.Admins
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-            var curUser = UsersGrid.SelectedItem as Users;
-            curUser.IdRole = 4;
-            AppData.db.SaveChanges();
-            MessageBox.Show("Успешно");
+            try
+            {
+                var curUser = UsersGrid.SelectedItem as Users;
+                curUser.IdRole = 4;
+                AppData.db.SaveChanges();
+                MessageBox.Show("Успешно");
+            }
+            catch(Exception er)
+            {
+                MessageBox.Show(er.Message);
+            }
          
         }
 
