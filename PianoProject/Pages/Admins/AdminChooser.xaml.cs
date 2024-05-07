@@ -29,5 +29,10 @@ namespace PianoProject.Pages.Admins
         {
             NavigationService.Navigate(new AdminUserPage());
         }
+
+        private void Back(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Login());
+        }
     }
 }

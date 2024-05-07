@@ -209,7 +209,7 @@
         <DataGrid Style="{DynamicResource DataGridStyle1}"  x:Name="pianodg" AutoGenerateColumns="False" Margin="13,77,314,103">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price}"/>
-                <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Model}"/>
+                <DataGridTextColumn Header="Модель" Width="*" Binding="{Binding Model}"/>
                 <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Count}"/>
               
             </DataGrid.Columns> 4

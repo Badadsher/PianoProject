@@ -219,9 +219,9 @@
         <DataGrid x:Name="pianodg" Style="{DynamicResource DataGridStyle1}" AutoGenerateColumns="False" Margin="84,75,84,72" Background="#FFD9D9D9">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Width="*" Binding="{Binding IDPianino}"/>
-                <DataGridTextColumn Header="Логин" Width="*" Binding="{Binding Price}"/>
-                <DataGridTextColumn Header="Email" Width="*" Binding="{Binding Model}"/>
-                <DataGridTextColumn Header="Номер телефона" Width="*" Binding="{Binding Count}"/>
+                <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Модель" Width="*" Binding="{Binding Model}"/>
+                <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Count}"/>
                 
             </DataGrid.Columns>
            
